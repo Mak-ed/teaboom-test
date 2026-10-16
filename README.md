@@ -4,7 +4,7 @@
 
 ## Ссылка
 
-**GitHub Pages:** 
+GitHub Pages: https://mak-ed.github.io/teaboom-test/
 
 ## Реализовано
 
