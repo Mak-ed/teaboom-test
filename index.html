@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Ананасовый улун — ароматизированный китайский чай. Выберите удобную фасовку."
+    />
+
+    <title>Ананасовый улун — Чайный Бум</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner container">
+        <a
+          class="logo"
+          href="https://teaboom.ru/"
+          aria-label="Чайный Бум — главная страница"
+        >
+          <span class="logo__icon" aria-hidden="true">茶</span>
+
+          <div class="logo__content">
+            <p class="logo__title h2">Чайный Бум</p>
+            <p class="logo__description">Интернет-магазин чая и посуды</p>
+          </div>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-content container">
+      <section class="notice">
+        <div class="notice__inner">
+          <p class="notice__text">
+            Учебный проект: демонстрационная карточка товара.
+          </p>
+        </div>
+      </section>
+
+      <nav class="breadcrumbs" aria-label="Путь к текущей странице">
+        <ol class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="https://teaboom.ru/">
+              Главная
+            </a>
+          </li>
+
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="/"> Каталог </a>
+          </li>
+
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="/"> Улун </a>
+          </li>
+
+          <li
+            class="breadcrumbs__item breadcrumbs__item--current"
+            aria-current="page"
+          >
+            Ананасовый улун
+          </li>
+        </ol>
+      </nav>
+
+      <div class="page-layout">
+        <div class="page-layout__wrapper">
+          <section class="product-card" aria-labelledby="product-title">
+            <header class="product-card__header">
+              <h1 class="product-card__title" id="product-title">
+                Ананасовый улун
+              </h1>
+            </header>
+
+            <div class="product-card__content">
+              <div class="product-gallery" data-js-product-gallery>
+                <div class="product-gallery__main">
+                  <button
+                    class="product-gallery__zoom-button"
+                    type="button"
+                    data-js-product-gallery-image-button
+                    aria-label="Увеличить изображение товара «Ананасовый улун»"
+                  >
+                    <img
+                      class="product-gallery__image"
+                      src="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.800x800.jpg"
+                      alt="Ананасовый улун — листовой чай с кусочками фруктов"
+                      width="800"
+                      height="800"
+                      data-js-product-gallery-product-image
+                    />
+
+                    <span class="product-gallery__zoom-hint" aria-hidden="true">
+                      Увеличить изображение
+                    </span>
+                  </button>
+                </div>
+
+                <dialog class="image-viewer" data-js-product-gallery-dialog>
+                  <div class="image-viewer__content">
+                    <button
+                      class="image-viewer__close"
+                      data-js-product-gallery-dialog-close-button
+                      type="button"
+                      aria-label="Закрыть увеличенное изображение"
+                    >
+                      &times;
+                    </button>
+
+                    <img
+                      class="image-viewer__image"
+                      data-js-product-gallery-dialog-image
+                      src=""
+                      alt=""
+                    />
+                  </div>
+                </dialog>
+
+                <div class="product-gallery__thumbnails">
+                  <img
+                    class="product-gallery__thumbnail"
+                    src="https://media.teaboom.ru/images/e4bb1618-fb80-41e2-8758-86f884ce095d.jpg"
+                    alt="Ананасовый улун, вид крупным планом"
+                    width="100"
+                    height="100"
+                  />
+                </div>
+              </div>
+
+              <div class="product-details" data-js-product-details>
+                <div class="product-details__top">
+                  <p class="product-details__article">
+                    Артикул:
+                    <span data-js-product-details-article>01306</span>
+                  </p>
+                  <button
+                    class="product-details__favorite h2"
+                    type="button"
+                    data-js-product-details-favorite-button
+                    aria-label="Добавить товар в избранное"
+                    title="Добавить в избранное"
+                  >
+                    <span aria-hidden="true">♥</span>
+                  </button>
+                </div>
+
+                <div
+                  class="product-packaging"
+                  id="product-packaging"
+                  aria-labelledby="packaging-title"
+                >
+                  <h2 class="product-packaging__title h3" id="packaging-title">
+                    Выберите фасовку
+                  </h2>
+
+                  <ul class="product-packaging__list">
+                    <li class="product-packaging__item">
+                      <button
+                        class="product-packaging__option product-packaging__option--selected"
+                        type="button"
+                        data-variant="100"
+                        data-js-product-details-option
+                        aria-label="Выбрать фасовку 100 граммов"
+                        aria-pressed="true"
+                      >
+                        <div class="product-packaging__info">
+                          <p class="product-packaging__weight">100 г</p>
+                          <p class="product-packaging__article">арт: 01306</p>
+                          <p class="product-packaging__status">В наличии</p>
+                        </div>
+
+                        <div class="product-packaging__prices">
+                          <p class="product-packaging__price">
+                            <ins>326,40 ₽</ins>
+                          </p>
+                          <p class="product-packaging__old-price">
+                            <del>349,20 ₽</del>
+                          </p>
+                        </div>
+                      </button>
+                    </li>
+
+                    <li class="product-packaging__item">
+                      <button
+                        class="product-packaging__option"
+                        type="button"
+                        data-variant="500"
+                        data-js-product-details-option
+                        aria-label="Выбрать фасовку 500 граммов"
+                        aria-pressed="false"
+                      >
+                        <div class="product-packaging__info">
+                          <p class="product-packaging__weight">500 г</p>
+                          <p class="product-packaging__article">арт: 01307</p>
+                          <p class="product-packaging__status">В наличии</p>
+                        </div>
+
+                        <div class="product-packaging__prices">
+                          <p class="product-packaging__price">
+                            <ins>1 432,00 ₽</ins>
+                          </p>
+                          <p class="product-packaging__old-price">
+                            <del>1 646,00 ₽</del>
+                          </p>
+                        </div>
+                      </button>
+                    </li>
+
+                    <li class="product-packaging__item">
+                      <button
+                        class="product-packaging__option"
+                        type="button"
+                        data-variant="1000"
+                        data-js-product-details-option
+                        aria-label="Выбрать фасовку 1000 граммов"
+                        aria-pressed="false"
+                      >
+                        <div class="product-packaging__info">
+                          <p class="product-packaging__weight">1000 г</p>
+                          <p class="product-packaging__article">арт: 01308</p>
+                          <p class="product-packaging__status">В наличии</p>
+                        </div>
+
+                        <div class="product-packaging__prices">
+                          <p class="product-packaging__price">
+                            <ins>2 064,00 ₽</ins>
+                          </p>
+                          <p class="product-packaging__old-price">
+                            <del>2 592,00 ₽</del>
+                          </p>
+                        </div>
+                      </button>
+                    </li>
+
+                    <li class="product-packaging__item">
+                      <button
+                        class="product-packaging__option"
+                        type="button"
+                        data-variant="5000"
+                        data-js-product-details-option
+                        aria-label="Выбрать фасовку 5000 граммов"
+                        aria-pressed="false"
+                      >
+                        <div class="product-packaging__info">
+                          <p class="product-packaging__weight">5000 г</p>
+                          <p class="product-packaging__article">арт: 01309</p>
+                          <p class="product-packaging__status">В наличии</p>
+                        </div>
+
+                        <div class="product-packaging__prices">
+                          <p class="product-packaging__price">
+                            <ins>6 320,00 ₽</ins>
+                          </p>
+                          <p class="product-packaging__old-price">
+                            <del>8 710,00 ₽</del>
+                          </p>
+                        </div>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="product-price">
+                  <h2 class="product-price__label">Цена выбранной фасовки</h2>
+
+                  <p
+                    class="product-price__current"
+                    data-js-product-details-current-price
+                  >
+                    <ins>326,40 ₽</ins>
+                  </p>
+
+                  <p
+                    class="product-price__old"
+                    data-js-product-details-old-price
+                  >
+                    <del>349,20 ₽</del>
+                  </p>
+
+                  <p class="product-price__article">
+                    Артикул:
+                    <span data-js-product-details-article>01306</span>
+                  </p>
+                </div>
+
+                <button
+                  class="button button--primary product-card__cart-button"
+                  type="button"
+                  data-js-product-details-cart-button
+                >
+                  В корзину
+                </button>
+
+                <p
+                  class="product-card__feedback"
+                  data-js-product-details-cart-feedback
+                  hidden
+                ></p>
+
+                <p class="product-card__availability">
+                  Наличие: <span>много</span>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section
+            class="product-description"
+            aria-labelledby="description-title"
+          >
+            <div class="product-description__inner">
+              <div class="product-description__header">
+                <h2
+                  class="product-description__title product-description__tab--active"
+                  id="description-title"
+                >
+                  Описание
+                </h2>
+              </div>
+
+              <div class="product-description__content">
+                <p>
+                  Ананасовый улун — ароматизированный китайский чай с фруктовыми
+                  нотами. В сухом виде чай сочетает скрученные чайные листья и
+                  кусочки фруктов.
+                </p>
+
+                <h3 class="product-description__subtitle">Вкус</h3>
+
+                <p>
+                  Мягкий вкус улуна дополняется ярким ароматом ананаса. Напиток
+                  подходит для неспешного чаепития в течение дня.
+                </p>
+
+                <h3 class="product-description__subtitle">Особенности</h3>
+
+                <ul class="product-description__list">
+                  <li>Китайский улун с ароматом ананаса</li>
+                  <li>Листовой чай с кусочками фруктов</li>
+                  <li>Несколько вариантов фасовки</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <aside class="category-sidebar" aria-labelledby="categories-title">
+          <h2 class="category-sidebar__title h3" id="categories-title">
+            Категории
+          </h2>
+
+          <nav aria-label="Категории чая">
+            <ul class="category-sidebar__list">
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Подарки </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Матча </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Чёрный чай </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/">
+                  Зелёный чай с ароматизацией
+                </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Зелёный чай </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Красный чай </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Белый чай </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Жёлтый чай </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Улун </a>
+              </li>
+
+              <li class="category-sidebar__item">
+                <a class="category-sidebar__link" href="/"> Пуэр </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner container">
+        <p class="footer__text">Учебный проект для демонстрации навыков.</p>
+      </div>
+    </footer>
+  </body>
+</html>
